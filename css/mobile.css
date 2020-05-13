@@ -1,0 +1,59 @@
+/* Responsive Design */
+
+/* Navbar */
+#navbar {
+  text-align: center;
+}
+
+#navbar .container {
+  padding: 0;
+}
+
+#navbar h1, #navbar ul,
+#navbar ul li, #home-info .info-content,
+.box, #about-info .info-right,
+#about-info .info-left
+ {
+  float: none;
+  width: 100%;
+}
+
+/* Showcase */
+#showcase {
+  height: 500px;
+}
+
+#showcase .showcase-content {
+  padding-top: 70px;
+}
+
+/* Home Info */
+#home-info {
+  height: 450px;
+}
+
+#home-info .info-img {
+  display: none;
+}
+
+/* Features */
+
+/* About Info */
+#about-info .info-right img {
+  margin-top: 30px;
+}
+.l-heading {
+  line-height: 1.1;
+}
+
+/* Testimonials */
+#testimonials {
+  padding-top: 50px;
+  height: 900px;
+}
+
+/* Contact Us */
+#contact-info .box:not(:last-child) {
+  border-bottom: 5px dotted #fff;
+}
+
